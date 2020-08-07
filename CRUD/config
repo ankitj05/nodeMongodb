@@ -1,0 +1,7 @@
+// const username = `matka`;
+// const password = `atlasmatka@4862`;
+// const clusterName = `Cluster0`;
+// const db = `sample_test`;
+// const collection = `listingAndReviews`;
+
+mongodb+srv://${username}:${password}@cluster0.vmya8.gcp.mongodb.net/${clusterName}?retryWrites=true&w=majority

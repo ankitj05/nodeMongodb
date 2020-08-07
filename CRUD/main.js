@@ -1,10 +1,10 @@
 const { MongoClient } = require('mongodb');
 
-const username = `matka`;
-const password = `atlasmatka@4862`;
-const clusterName = `Cluster0`;
-const db = `sample_test`;
-const collection = `listingAndReviews`;
+const username = `<username>`;
+const password = `<password>`;
+const clusterName = `<clusterName>`;
+const db = `<dbName>`;
+const collection = `<collectionName>`;
 
 var singleDocument = {
     name: `Lovely Loft`,
@@ -50,7 +50,7 @@ var deleteOption = { name: `cozy Loft` };
 var deleteOptions = { propertyType: `Unknown` };
 
 async function main() {
-    const uri = `mongodb+srv://${username}:${password}@cluster0.vmya8.gcp.mongodb.net/${clusterName}?retryWrites=true&w=majority`;
+    const uri = `add your uri`;
     const client = new MongoClient(uri);
 
     try {
